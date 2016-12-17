@@ -14,15 +14,13 @@ gem 'spree', '~> 3.2.0.rc1'
 gem 'spree_auth_devise', '~> 3.2.0.beta'
 gem 'spree_gateway', '~> 3.2.0.beta'
 
-
-
 # gem 'haml', '~> 4.0.5'
-# gem 'simple_form', '~> 3.3', '>= 3.3.1'
+gem 'simple_form', '~> 3.3', '>= 3.3.1'
 # gem 'bootstrap-sass', '~> 3.2.0.2'
 
-# gem 'devise', github: 'plataformatec/devise'
+gem 'devise'
 # gem 'paperclip', '~> 4.2.0'
-# gem 'masonry-rails', '~> 0.2.4'
+gem 'masonry-rails', '~> 0.2.4'
 
 
 ######################
