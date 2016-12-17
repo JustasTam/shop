@@ -1,0 +1,19 @@
+default: &default
+  adapter: mysql2
+  host: localhost
+  username: root
+  password: garbana
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: shop_dev
+
+test:
+  <<: *default
+  database: shop_test
+
+production:
+  <<: *default
+  database: shop_prod

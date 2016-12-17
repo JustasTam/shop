@@ -1,0 +1,9 @@
+
+.panel-default:hover {
+	color: #00adee;
+	border-color: #00adee;
+}
+
+.thumbnail:hover {
+	border-color: #00adee;
+}
