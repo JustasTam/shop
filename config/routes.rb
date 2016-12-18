@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
 
-
   root 'first#index'
 
   get 'first/index'
+  get '/logged', to: 'first#logged'
 
   devise_for :users
   # This line mounts Spree's routes at the root of your application.

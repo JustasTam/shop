@@ -8,11 +8,16 @@
 	border-color: #00adee;
 }
 
+#error_explanation h2{
+    font-size: 20px;
+}
+
 .messagei{
   background-color: #f2dede;
     border-color: #eed3d7;
     color: #b94a48;
     text-align: left;
+    font-size: 20px;
 }
 
 .alert-error {
